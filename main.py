@@ -31,7 +31,7 @@ while choice:
         for data in recovery:
             for key, value in morse_code_dict.items():
                 if value == data:
-                    rec_text += str(key)
+                    rec_text += key
         print(f"Your Original Text: {rec_text.title()}")
         choice = False
     else:
